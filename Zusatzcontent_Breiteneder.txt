@@ -17,34 +17,42 @@ Bestandteile der Website:
 ---Auf Scroll verändert die Navbar auch die Farbe, von Durchsichtig zu #373a4171 (Durchsichtiges Grau)
 
 -Header Img
---Full size Header Img -> Adaptiv für Dsktop Zentriert
+--Full size Header Img -> Adaptiv für Desktop Zentriert
 --Anker SVG -> 'Zum Content/Nach unten' Button
 ---Anker Button Bewegt sich wenn Nutzer die Seite das erste mal lädt mit 1 Sekunde verzögerung -> transform: translateY();
 ---Hover Effekt im Unteren Bereich des Header Img und Anker -> Bewegt sich nach unten um dem Nutzer zu Zeigen das es 'nach unten' geht
----Scrollt zur Ersten Contetn Section(#orange) mit scroll-padding: 112px; -> Höhe der *shrinked* Navbar
+---Scrollt zur Ersten Contentn Section(#orange) mit scroll-padding: 112px; -> Höhe der *shrinked* Navbar
 
--Content
---3 Bild mit Text Sectionen auf der Startseite. 
+-Content Startseite
+--Drei Bild mit Text Sectionen auf der Startseite. 
 ---Adaptiv für Desktop mit Flex. 
----Anordung der Elemente mit Rows und  Colums mit Flex.
---Hover Effekt Links im Content -> Ändern Farbe 
+---Anordung der Elemente mit Rows und Colums mit Flex.
+--Hover Effekt Links im Content -> Ändern Farbe
 --Span buttons die als CTA und naviogations Elemente funktionieren.
 ---Hover Effekt auf Buttons -> Grauer Schatten und Font size von 1.2em zu 1.22em.
+--Bilder im Contnet -> Lazy Loading
 
+-Content Unterseiten
+--Für die Ausgestaltung vorbereitet
+--Eine Bild mit Text Sectionen und Text Section
+---Adaptiv für Desktop mit Flex. 
+---Anordung der Elemente mit Rows und  Colums mit Flex.
+--SVG Seperator
+--Bilde im Contnet -> Lazy Loading
 
 -Footer
 --Footer mit Flex Adaptiv für Desktop.
 --Anordung der Elemente mit Rows und  Colums mit Flex.
 --Verlinkung der wichtigsten Content Seiten.
---Verlinkung Impressum udn DSGVO (Füht zu Dummy Seite -> noch nicht ausgestaltet aber für den *Kunden* vorberreitet zum Befüllen)
+--Impressum und DSGVO(Nicht verlinkt -> Für verlinkung vorbereitet)
 --Kontakt per Mailto
---Drei Social Media Icons (Nicht verlinkt -> Für den Kunden vorbereitet)
+--Drei Social Media Icons (Nicht verlinkt -> Für verlinkung vorbereitet)
 --Leuchtturm SVG -> 'Back to Home' Button 
 ---Leuchttum Button scrollt wieder nach oben zum Header.
 ---Leuchttum Hover Effekt -> Bewegt sich leicht nach Oben und wird Größer
 
 -SEO
 --Überschriften Strucktur
----H1, H2, H3 auf der Startseite haben die selben Styles so das die Hirachie für das SEO und die stilistischen Entscheidungen sich nicht in die quere kommen.
+---H1, H2, H3 auf der Startseite haben die selben Styles so das die Hirachie für das SEO und die stilistischen Entscheidungen sich nicht in die Quere kommen.
 --Link Titel
 --Alt text bei Bildern

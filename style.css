@@ -3,12 +3,23 @@ html, body {
     margin: 0;
     background-color: #143646;
     scroll-behavior: smooth;
-    scroll-padding: 112px;
+    scroll-padding: 152px;
 }
-    h1, h2, h3 {
+h1, h2, h3 {
     font-family: "eds-market-regular", sans-serif;
     font-size: 2.1em;
     letter-spacing: 0.8px;
+}
+.content h1 {
+    font-size: 2.1em;
+
+}
+.content h2 {
+    font-size: 1.8em;
+
+}
+.content h3 {
+    font-size: 1.5em;
 }
 a {
     text-decoration: none;
@@ -17,7 +28,7 @@ a {
     color: white;
     font-size: 1.2em;
 }
-a:hover{
+a:hover {
     color:  #ECE2CB;
     transition: 0.2s ease-in-out;
 }
@@ -61,6 +72,7 @@ nav {
 }
 .nav-item img {
     width: 200px;
+    z-index: 3;
 } 
 .dropdown-content {
     display: flex;
@@ -109,11 +121,11 @@ nav {
 .anchor:hover {
     transform: translateY(15px);
 }
-/* Content section */
-.content *{
+/* Content section Home */
+.content-home *{
     margin: 0;
 }
-.content{
+.content-home{
     top: -4px;
     position: relative;
     color: white;
@@ -129,7 +141,7 @@ nav {
     flex-direction: column;
     row-gap: 20px;
 }
-.content img {
+.content-home img {
     border-radius: 1em;
     max-width: 480px;
 }
@@ -194,7 +206,6 @@ nav {
     padding: 2% 8%;
     display: flex;
     justify-content: space-between;
-    column-gap: 10px;
 }
 .light-blue-section .content-row:last-child{
     margin-left: auto;
@@ -209,6 +220,67 @@ nav {
     font-size: 1.22em;
     transition: 0.1s ease-in-out;
 }
+/* Content section Page - #Intro# */
+.content *{
+    margin: 0;
+}
+.content{
+    top: -4px;
+    position: relative;
+    color: white;
+    /* background-color: #4B9DA4; */
+    padding: 40px 0 0 0;
+}
+.content img {
+    border-radius: 1em;
+    max-width: 480px;
+}
+.content .text-section .content-colum:last-child{
+    max-width: max-content;
+    margin-right: auto;
+    text-align: left
+}
+.content .text-section {
+    text-align: left !important;
+}
+
+/* Content section Page - #Text# */
+.text-row{
+    display: flex;
+    margin: 10px;
+}
+.text-colum{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+}
+
+/* Seperator */
+.seperator{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 2% 0;
+
+}
+.seperator img{
+    max-width: 240px;
+}
+
+.light-blue{
+    background-color: #4B9DA4;
+}
+
+.dark-blue{
+    background-color: #143646;
+}
+.orange {
+    background-color: #C26B38;
+}
+
 /* Lighthouse */
 .lighthouse{
     display: flex;

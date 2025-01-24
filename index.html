@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>liveaBoard</title>
+    <title>liveaBoard - Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/wjj1oyi.css">
     <script type="text/javascript" src="script.js"></script>
@@ -11,27 +11,23 @@
 </head>
 <body>
 <header>
-    <nav id="navbar" class="">
+    <nav id="navbar">
     <div class="container">
         <ul class="nav-list">
-            <li class="nav-item"><a id="logo" class="ease-out" href="#" title="home">
-                <img src="assets/logo-white.png" width="250"></a></li>
-            <div class="dropdown-container">    
-                
-            <div id="myDropdown" class="dropdown-content"> <!-- JS adds scroll class -->
+            <li class="nav-item"><a id="logo" class="ease-out" href="index.html" title="home">
+                <img src="assets/logo-white.png" width="250"></a></li>            
                 <li class="nav-item nav-link">
                     <a href="mailto:lbreiteneder@lbs2.salzburg.at" title="contact us" target="_blank">contact</a>
                 </li>
                 <li class="nav-item nav-link">
-                    <a href="#light-blue" title="own a Boat">ownaBoat</a>
+                    <a href="own-a-Boat.html" title="own a Boat">ownaBoat</a>
                 </li>
                 <li class="nav-item nav-link">
-                    <a href="#dark-blue" title="share a Boat">shareaBoat</a>
+                    <a href="share-a-boat.html" title="share a Boat">shareaBoat</a>
                 </li>
                 <li class="nav-item nav-link">
-                    <a href="#orange" title="about us">about</a>
+                    <a href="about-liveaboard.html" title="about us">about</a>
                 </li>
-            </div>                
         </div>
         </ul>
     </div>
@@ -41,13 +37,12 @@
     </div>
     <div id="anchor" class="anchor">
         <a href="#orange">
-            <!-- <i class="fa-solid fa-arrow-down"></i> -->
             <img src="assets/SVG/anchor-white.svg">
         </a>
     </div>
 </header>
-<div class="content">
-<!--ORANGE-->
+<div class="content-home">
+<!-- ORANGE -->
     <div id="orange" class="orange-section">
         <div class="content-row">
             <div class="content-colum">
@@ -58,17 +53,17 @@
                 <br>of your life to escape the land based capitalist hamster wheel.</p>
             </div>
         <div class="content-colum">
-            <span id="button" class="orange-button"><a href="#">about us</a></span>
+            <span id="button" class="orange-button"><a href="about-us.html">about us</a></span>
         </div>
         </div>
         <div class="content-row">
-            <img alt="Katze auf dem Baum eines Segelbootes" src="img/about-cat.jpeg">
+            <img loading="lazy" alt="Katze auf dem Baum eines Segelbootes" src="img/about-cat.jpeg">
         </div>
     </div>
 <!--DARK BLUE-->
     <div id="dark-blue" class="dark-blue-section">
         <div class="content-row">
-            <img alt="Ein Segelboot liegt auf Anker, im Hintergrund ist ein Walt zu sehen." src="img/buy-boat-woods.jpg">
+            <img loading="lazy" alt="Ein Segelboot liegt auf Anker, im Hintergrund ist ein Walt zu sehen." src="img/buy-boat-woods.jpg">
         </div>
         <div class="content-row">
             <div class="content-colum">
@@ -79,7 +74,7 @@
                 <br>or just to look after their Boat while they are away on land.</p>
             </div>
             <div class="content-colum">
-                <span id="button" class="blue-button"><a href="#">share a boat</a></span>
+                <span id="button" class="blue-button"><a href="share-a-boat.html">share a boat</a></span>
             </div>
         </div>
     </div>   
@@ -94,11 +89,11 @@
                 <br>Visit our Guide on how to buy a Boat and how to figure out what Boat fits your needs.</p>
             </div>
             <div class="content-colum">
-                <span id="button" class="blue-button"><a href="#">buy a boat</a></span>
+                <span id="button" class="blue-button"><a href="own-a-Boat.html">own a Boat</a></span>
             </div>
         </div>
         <div class="content-row">
-            <img alt="Ein Segelboot liegt vor Anker. Eine Frau hängt mit einer Hängematte vom Baum des Bootes knapp über der Wasseroberfläche." src="img/buy_sailbaot_liveaboard.jpg">
+            <img loading="lazy" alt="Ein Segelboot liegt vor Anker. Eine Frau hängt mit einer Hängematte vom Baum des Bootes knapp über der Wasseroberfläche." src="img/buy_sailbaot_liveaboard.jpg">
         </div> 
     </div>
 <!--FOOTER  -->
@@ -113,14 +108,14 @@
             </div>
             <div class="footer-colum">
                 <ul class="footer-list">
-                    <li class="footer-item"><a href="#">shareaBoat</a></li>
-                    <li class="footer-item"><a href="#">about</a></li>
+                    <li class="footer-item"><a href="share-a-boat.html">shareaBoat</a></li>
+                    <li class="footer-item"><a href="about-liveaboard.html">about</a></li>
                 </ul>
             </div>
             <div class="footer-colum">
                 <ul class="footer-list">
-                    <li class="footer-item"><a href="#">contact</a></li>
-                    <li class="footer-item"><a href="#">buyaBoat</a></li>
+                    <li class="footer-item"><a href="mailto:lbreiteneder@lbs2.salzburg.at">contact</a></li>
+                    <li class="footer-item"><a href="own-a-Boat.html">ownaBoat</a></li>
                 </ul>
             </div>
             <div class="footer-colum">
@@ -149,7 +144,7 @@
         </div>
         <div id="lighthouse" class="lighthouse">
             <a href="#">
-                <img src="assets/SVG/lighthouse-home.svg">
+                <img loading="lazy" src="assets/SVG/lighthouse-home.svg">
             </a>
         </div>
     </footer>
